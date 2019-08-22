@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: springcloudconsulconsumer  #对应文件夹的名称，即配置文件存放在此文件夹里面
+  profiles: 
+    active: default                  #对应不带后缀的配置文件
+  cloud:
+    config:
+      uri: http://localhost:9000    #服务端的地址172.18.164.251
+      
+  #此段配置可以让spring boot启动时不连接数据库    
+  #autoconfigure: 
+    #exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+             #org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration
+
+  
+
+
+    
+   
+     
+     
