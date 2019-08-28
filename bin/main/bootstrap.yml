@@ -8,7 +8,7 @@ spring:
       uri: http://localhost:9000    #服务端的地址172.18.164.251
       
   #此段配置可以让spring boot启动时不连接数据库    
-  #autoconfigure: 
+  #autoconfigure:  springcloudconsulconsumer/say_hello_consumer
     #exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
              #org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration
 
