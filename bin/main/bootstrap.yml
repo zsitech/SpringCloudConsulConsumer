@@ -1,6 +1,6 @@
 spring:
   application:
-    name: spring_cloud_consul_consumer  #对应文件夹的名称，即配置文件存放在此文件夹里面
+    name: SpringCloudConsulConsumer  #对应文件夹的名称，即配置文件存放在此文件夹里面
   profiles: 
     active: default                  #对应不带后缀的配置文件
   cloud:
